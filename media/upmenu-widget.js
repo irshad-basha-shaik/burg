@@ -311,8 +311,8 @@
     // main function
     function main() {
             // load settings
-            $.ajax({
-                url: 'https://api.upmenu.com/restapi/widget/config',
+        /*    $.ajax({
+                url: 'restapi/widget/config1',
                 data:  {
                     siteId: window.upmenuSettings.id,
                     restaurantId: window.upmenuSettings.restaurant_id,
@@ -400,7 +400,7 @@
                     if(window.upmenuSettings.config.type == 'INLINE_BUTTON') {
                         buildInlineButton();
                     }
-            });
+            });*/
     }
 
     // load jquery

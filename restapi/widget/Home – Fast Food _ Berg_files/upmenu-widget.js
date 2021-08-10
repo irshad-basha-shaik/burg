@@ -312,7 +312,7 @@
     function main() {
             // load settings
             $.ajax({
-                url: 'restapi/widget/config3',
+                url: 'restapi/widget/config2',
                 data:  {
                     siteId: window.upmenuSettings.id,
                     restaurantId: window.upmenuSettings.restaurant_id,
