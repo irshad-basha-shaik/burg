@@ -1,7 +1,7 @@
 (function (window, document) {
     var jQuery, $; // localize jQuery variables
     // widget settings
-    var STATIC_DIR = 'https://cdn.upmenu.com/media/widget';
+    var STATIC_DIR = 'media/widget';
     var API_CSS_FILE = STATIC_DIR+'/upmenu-widget.css';
     var JQUERY_FILE = STATIC_DIR+'/jquery.3.3.1.min.js';
     var IZI_MODAL_FILE = STATIC_DIR+'/iziModal.1.5.1.js';
